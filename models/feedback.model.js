@@ -7,8 +7,6 @@ const feedbackSchema = new Schema({
     feedback : {type :String, required : true},
     instructor : {type : String, required : true}
     
-    // workingSchedule : {type: mongoose.Schema.Types.ObjectId, ref:'workingSchedule'}
-    
      
 },{
         timestamps : true,

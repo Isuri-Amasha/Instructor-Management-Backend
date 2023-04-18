@@ -8,9 +8,6 @@ const paymentSchema = new Schema({
     accNumber : {type : String, required : true},
     name : {type : String, required : true},
     branch: {type :String, required : true}
-   
-    
-    // workingSchedule : {type: mongoose.Schema.Types.ObjectId, ref:'workingSchedule'}
     
      
 },{

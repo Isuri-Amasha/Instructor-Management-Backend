@@ -57,7 +57,7 @@ const addInstructor = async (req, res) => {
         
         existingInstructor
           .save()
-          .then(() => res.json('Instructir updated!'))
+          .then(() => res.json('Instructor updated!'))
           .catch((error) => res.status(400).json("Error: " + error));
       })
       .catch((error) => res.status(400).json("Error: " + error));
